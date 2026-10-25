@@ -76,4 +76,5 @@ python "%USERPROFILE%\.dsh\skills\ppt-rebuild\scripts\doctor.py"   # 期望 "ok"
 
 ## 许可
 
-MIT，见 [LICENSE](LICENSE)。
+**CC0 1.0（公有领域）**——完全开放：可商用、可修改、可再分发，无需署名、无需保留许可声明。
+详见 [LICENSE](LICENSE)。
