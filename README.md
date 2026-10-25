@@ -7,6 +7,17 @@
 
 ![原图 vs 重建](examples/compare.png)
 
+## 直接打开看效果
+
+`examples/目录-可编辑-分层版.pptx` 就是上图那页的成品（PowerPoint / WPS / Keynote 都能开）：
+
+- **背景**：一张完整照片（`bg_vivid.png` 反解出来的）
+- **蒙版**：一层 70.5% 白的图片，三处开洞、洞底到 y=540
+- **可编辑**：3 段竖排中文、3 个序号、标题、`/Contents`、黄点，全是原生文本/形状
+- 删掉蒙版层就能看到完整照片；换卡片内容只需改文字
+
+![重建结果](examples/rebuilt.png)
+
 ## 里面有什么
 
 ```
@@ -21,7 +32,11 @@ ppt-rebuild/          技能本体（放进 ~/.dsh/skills/ 即生效）
   scripts/maskfit.py  蒙版 alpha 与洞的边界（像素阶跃）
   scripts/inpaint.py  擦照片上的字
   scripts/rounded.py  异形圆角裁图
-examples/             一张真实案例：原图、重建图、并排对比
+examples/             真实案例
+  source.png          原截图
+  rebuilt.png         重建后的渲染图
+  compare.png         原图 / 重建 上下对比
+  目录-可编辑-分层版.pptx   成品，可直接打开
 ```
 
 ## 安装
