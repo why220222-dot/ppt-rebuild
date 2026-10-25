@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 本地产物
+preview/
+out/
+probe/
+*.pptx
+*.pdf
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
