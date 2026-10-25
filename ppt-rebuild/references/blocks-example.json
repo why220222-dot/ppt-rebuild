@@ -1,0 +1,10 @@
+[
+ {"name": "title",     "box": [38, 18, 112, 62],   "mode": "dark",  "thr": 120},
+ {"name": "contents",  "box": [108, 25, 220, 65],  "mode": "orange"},
+ {"name": "card1 text","box": [150, 190, 330, 470],"mode": "light", "thr": 230},
+ {"name": "card1 num", "box": [150, 460, 330, 540],"mode": "light", "thr": 230},
+ {"name": "card2 text","box": [425, 190, 605, 470],"mode": "light", "thr": 230},
+ {"name": "card2 num", "box": [425, 460, 605, 540],"mode": "light", "thr": 230},
+ {"name": "card3 text","box": [700, 190, 880, 470],"mode": "light", "thr": 230},
+ {"name": "card3 num", "box": [700, 460, 880, 540],"mode": "light", "thr": 230}
+]
