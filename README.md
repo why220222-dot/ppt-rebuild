@@ -9,7 +9,7 @@
 
 ## 直接打开看效果
 
-`examples/目录-可编辑-分层版.pptx` 就是上图那页的成品（PowerPoint / WPS / Keynote 都能开）：
+[examples/目录-可编辑-分层版.pptx](examples/目录-可编辑-分层版.pptx) 就是上图那页的成品（PowerPoint / WPS / Keynote 都能开）：
 
 - **背景**：一张完整照片（`bg_vivid.png` 反解出来的）
 - **蒙版**：一层 70.5% 白的图片，三处开洞、洞底到 y=540
